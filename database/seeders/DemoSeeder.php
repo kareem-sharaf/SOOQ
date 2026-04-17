@@ -62,6 +62,7 @@ class DemoSeeder extends Seeder
                 'slug' => 'cotton-summer-shirt',
                 'base_price' => 150000,
                 'compare_at_price' => 200000,
+                'images' => ['https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1598033129183-c4f50c736c10?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'S - أبيض', 'sku' => 'CSS-S-W', 'price' => 150000, 'stock_qty' => 25],
                     ['name_ar' => 'M - أبيض', 'sku' => 'CSS-M-W', 'price' => 150000, 'stock_qty' => 30],
@@ -75,6 +76,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'بنطلون جينز كلاسيكي بقصة مستقيمة، مناسب لجميع المناسبات',
                 'slug' => 'classic-jeans',
                 'base_price' => 280000,
+                'images' => ['https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => '32 - أزرق', 'sku' => 'CJ-32-B', 'price' => 280000, 'stock_qty' => 15],
                     ['name_ar' => '34 - أزرق', 'sku' => 'CJ-34-B', 'price' => 280000, 'stock_qty' => 20],
@@ -88,6 +90,7 @@ class DemoSeeder extends Seeder
                 'slug' => 'elegant-evening-dress',
                 'base_price' => 450000,
                 'compare_at_price' => 550000,
+                'images' => ['https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'S - أسود', 'sku' => 'EED-S-BK', 'price' => 450000, 'stock_qty' => 10],
                     ['name_ar' => 'M - أحمر', 'sku' => 'EED-M-R',  'price' => 460000, 'stock_qty' => 8],
@@ -100,6 +103,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'بلوزة حرير ناعمة بألوان هادئة، مثالية للعمل والمناسبات',
                 'slug' => 'silk-blouse',
                 'base_price' => 180000,
+                'images' => ['https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'M - بيج', 'sku' => 'SB-M-BG', 'price' => 180000, 'stock_qty' => 18],
                     ['name_ar' => 'L - بيج', 'sku' => 'SB-L-BG', 'price' => 180000, 'stock_qty' => 12],
@@ -113,6 +117,7 @@ class DemoSeeder extends Seeder
                 'slug' => 'lightweight-sneakers',
                 'base_price' => 320000,
                 'compare_at_price' => 400000,
+                'images' => ['https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => '42 - رمادي', 'sku' => 'LS-42-G', 'price' => 320000, 'stock_qty' => 22],
                     ['name_ar' => '43 - رمادي', 'sku' => 'LS-43-G', 'price' => 320000, 'stock_qty' => 18],
@@ -126,6 +131,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'صندل من الجلد الطبيعي بتصميم كلاسيكي مريح',
                 'slug' => 'leather-sandals',
                 'base_price' => 220000,
+                'images' => ['https://images.unsplash.com/photo-1603487742131-4160ec999306?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => '41 - بني', 'sku' => 'NLS-41-BR', 'price' => 220000, 'stock_qty' => 16],
                     ['name_ar' => '42 - بني', 'sku' => 'NLS-42-BR', 'price' => 220000, 'stock_qty' => 20],
@@ -138,6 +144,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'ساعة يد أنيقة بتصميم كلاسيكي وسوار جلدي',
                 'slug' => 'classic-wristwatch',
                 'base_price' => 500000,
+                'images' => ['https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'ذهبي', 'sku' => 'CW-GOLD', 'price' => 500000, 'stock_qty' => 8],
                     ['name_ar' => 'فضي',  'sku' => 'CW-SILV', 'price' => 480000, 'stock_qty' => 12],
@@ -150,6 +157,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'نظارة شمسية عصرية مع حماية UV400',
                 'slug' => 'sunglasses',
                 'base_price' => 120000,
+                'images' => ['https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'أسود',  'sku' => 'SG-BK', 'price' => 120000, 'stock_qty' => 30],
                     ['name_ar' => 'بني',   'sku' => 'SG-BR', 'price' => 120000, 'stock_qty' => 25],
@@ -163,6 +171,7 @@ class DemoSeeder extends Seeder
                 'slug' => 'practical-backpack',
                 'base_price' => 250000,
                 'compare_at_price' => 300000,
+                'images' => ['https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'أسود', 'sku' => 'PB-BK', 'price' => 250000, 'stock_qty' => 15],
                     ['name_ar' => 'كحلي', 'sku' => 'PB-NV', 'price' => 250000, 'stock_qty' => 10],
@@ -175,6 +184,7 @@ class DemoSeeder extends Seeder
                 'description_ar' => 'حقيبة يد نسائية أنيقة من الجلد الصناعي عالي الجودة',
                 'slug' => 'women-handbag',
                 'base_price' => 350000,
+                'images' => ['https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=600&fit=crop', 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&h=600&fit=crop'],
                 'variants' => [
                     ['name_ar' => 'أسود',  'sku' => 'WH-BK', 'price' => 350000, 'stock_qty' => 12],
                     ['name_ar' => 'أحمر',  'sku' => 'WH-RD', 'price' => 360000, 'stock_qty' => 8],
@@ -207,17 +217,19 @@ class DemoSeeder extends Seeder
                 );
             }
 
-            // Placeholder image
-            ProductImage::firstOrCreate(
-                ['product_id' => $product->id, 'is_primary' => true],
-                [
-                    'product_id' => $product->id,
-                    'url'        => "https://placehold.co/600x600/eee/999?text=" . urlencode($pData['title_ar']),
-                    'alt_text_ar' => $pData['title_ar'],
-                    'sort_order'  => 0,
-                    'is_primary'  => true,
-                ]
-            );
+            // Images
+            foreach (($pData['images'] ?? []) as $i => $url) {
+                ProductImage::firstOrCreate(
+                    ['product_id' => $product->id, 'url' => $url],
+                    [
+                        'product_id'  => $product->id,
+                        'url'         => $url,
+                        'alt_text_ar' => $pData['title_ar'],
+                        'sort_order'  => $i,
+                        'is_primary'  => $i === 0,
+                    ]
+                );
+            }
         }
 
         // ===== 5. Shipping Zones (14 Syrian Governorates) =====
