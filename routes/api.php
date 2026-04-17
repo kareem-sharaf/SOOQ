@@ -15,6 +15,7 @@ use App\Http\Controllers\Api\ShipmentController;
 use App\Http\Controllers\Api\ShippingZoneController;
 use App\Http\Controllers\Api\StoreController;
 use App\Http\Controllers\Api\TemplateController;
+use App\Http\Controllers\Api\UploadController;
 use Illuminate\Support\Facades\Route;
 
 // ==============================
@@ -33,6 +34,9 @@ Route::middleware('auth:api')->group(function () {
     // Auth
     Route::get('/user', [AuthController::class, 'user']);
     Route::post('/logout', [AuthController::class, 'logout']);
+
+    // Upload
+    Route::post('/upload', [UploadController::class, 'upload']);
 
     // Templates (public list, auth for apply)
     Route::get('/templates', [TemplateController::class, 'index']);
