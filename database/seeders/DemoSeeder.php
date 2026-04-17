@@ -245,6 +245,9 @@ class DemoSeeder extends Seeder
             );
         }
 
+        // ===== 6. Templates =====
+        $this->call(TemplateSeeder::class);
+
         $this->command->info('Demo data seeded successfully!');
         $this->command->info("Merchant login: merchant@sooq.test / password123");
         $this->command->info("Store: {$store->store_name} ({$store->slug})");

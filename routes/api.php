@@ -14,6 +14,7 @@ use App\Http\Controllers\Api\ProductVariantController;
 use App\Http\Controllers\Api\ShipmentController;
 use App\Http\Controllers\Api\ShippingZoneController;
 use App\Http\Controllers\Api\StoreController;
+use App\Http\Controllers\Api\TemplateController;
 use Illuminate\Support\Facades\Route;
 
 // ==============================
@@ -33,6 +34,10 @@ Route::middleware('auth:api')->group(function () {
     Route::get('/user', [AuthController::class, 'user']);
     Route::post('/logout', [AuthController::class, 'logout']);
 
+    // Templates (public list, auth for apply)
+    Route::get('/templates', [TemplateController::class, 'index']);
+    Route::get('/templates/{template}', [TemplateController::class, 'show']);
+
     // Stores
     Route::post('/auth/stores', [StoreController::class, 'store']);
     Route::get('/stores', [StoreController::class, 'index']);
@@ -42,6 +47,9 @@ Route::middleware('auth:api')->group(function () {
     // Store-scoped Resources
     // ==============================
     Route::prefix('/stores/{store}')->group(function () {
+
+        // Templates — apply to store
+        Route::post('/apply-template/{template}', [TemplateController::class, 'apply']);
 
         // Categories
         Route::get('/categories', [CategoryController::class, 'index']);
