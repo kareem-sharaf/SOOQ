@@ -257,7 +257,10 @@ class DemoSeeder extends Seeder
             );
         }
 
-        // ===== 6. Templates =====
+        // ===== 6. Orders =====
+        $this->call(OrderSeeder::class);
+
+        // ===== 7. Templates =====
         $this->call(TemplateSeeder::class);
 
         $this->command->info('Demo data seeded successfully!');
